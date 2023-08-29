@@ -1,11 +1,11 @@
 package org.pokemon.pokemon;
 
-public class Charizar extends Pokemon{
+public class Charizard extends Pokemon{
     private String ataque;
 
 
-    public Charizar() {
-        super("Fuego",5, "Charizar");
+    public Charizard() {
+        super("Fuego",5, "Charizard");
         this.ataque = "Lanza LLamas";
     }
 

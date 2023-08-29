@@ -1,7 +1,7 @@
 package org.pokemon;
 
 import org.pokemon.entrenador.Ash;
-import org.pokemon.pokemon.Charizar;
+import org.pokemon.pokemon.Charizard;
 import org.pokemon.pokemon.Pikachu;
 import org.pokemon.pokemon.Pokemon;
 import org.pokemon.pokemon.Psyduck;
@@ -29,7 +29,7 @@ public class Main {
             switch (opcion){
                 case 1:
                     System.out.println("Elije un pokemon:");
-                    System.out.println("1. Charizar");
+                    System.out.println("1. Charizard");
                     System.out.println("2. Pikachu");
                     System.out.println("3. Psyduck");
                     System.out.print("Elige una opción: ");
@@ -39,7 +39,7 @@ public class Main {
                     Pokemon nuevoPokemon = null;
                     switch(pokemonElegido){
                         case 1:
-                            nuevoPokemon = new Charizar();
+                            nuevoPokemon = new Charizard();
                         break;
                         case 2:
                             nuevoPokemon = new Pikachu();
